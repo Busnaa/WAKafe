@@ -15,6 +15,10 @@ Flask: Webový framework pro serverovou část.
 Tkinter: Knihovna pro tvorbu grafického uživatelského rozhraní (GUI).
 Requests: Knihovna pro HTTP komunikaci mezi klientem a serverem.
 Threading: Pro běh serveru a synchronizaci úkolů na pozadí.
+
+
+
+
 Instalace
 Nainstalujte Python (verze 3.x):
 
@@ -41,6 +45,10 @@ Stáhněte si soubory projektu:
 
 client.py: Klientská aplikace (GUI pro práci s úkoly a kávou).
 server.py: Flask server pro správu úkolů (API).
+
+
+
+
 Spuštění projektu:
 
 Nejprve spusťte server:
@@ -59,6 +67,10 @@ Zkopírovat kód
 /project
     ├── server.py           # Flask server pro správu úkolů
     └── client.py           # Klientská aplikace s GUI pro úkoly a kávu
+
+
+
+    
 Použití
 1. Přihlášení
 Po spuštění klientské aplikace se zobrazí přihlašovací okno, kde musíte zadat uživatelské jméno a heslo. Uživatelé jsou přednastaveni na:
