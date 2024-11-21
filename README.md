@@ -9,6 +9,7 @@ Přehled úkolů: Zobrazí seznam všech úkolů s možností přiřazení úkol
 Přehled káv: Zobrazuje všechny přidané kávové záznamy.
 Automatická synchronizace: Úkoly se pravidelně synchronizují se serverem.
 Přihlášení: Uživatel se musí přihlásit, aby mohl využívat funkce aplikace (pro jednoduchost je přihlašování hardcoded).
+
 Technologie
 Flask: Webový framework pro serverovou část.
 Tkinter: Knihovna pro tvorbu grafického uživatelského rozhraní (GUI).
