@@ -20,13 +20,13 @@ Threading: Pro běh serveru a synchronizaci úkolů na pozadí.
 
 
 ## Instalace
-Nainstalujte Python (verze 3.x):
+Nainstalujte Python (verze 3.x)
 
 Vytvořte virtuální prostředí (doporučeno):
 
-python -m venv venv
-source venv/bin/activate  # pro Linux/macOS
-venv\Scripts\activate     # pro Windows
+* python -m venv venv
+* source venv/bin/activate  # pro Linux/macOS
+* venv\Scripts\activate     # pro Windows
 
 ### Nainstalujte požadované balíčky: 
 * Flask
