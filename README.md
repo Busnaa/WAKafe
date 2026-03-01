@@ -22,25 +22,21 @@ Threading: Pro běh serveru a synchronizaci úkolů na pozadí.
 ## Instalace
 Nainstalujte Python (verze 3.x):
 
-### Stáhnout Python
 Vytvořte virtuální prostředí (doporučeno):
 
-bash
-Zkopírovat kód
 python -m venv venv
 source venv/bin/activate  # pro Linux/macOS
 venv\Scripts\activate     # pro Windows
-Nainstalujte požadované balíčky: Tento projekt vyžaduje následující balíčky:
 
-Flask
-Requests
-Tkinter (standardně součástí Pythonu, ale na některých systémech je potřeba jej doinstalovat)
-Waitress (pro server)
-Instalujte je pomocí pip:
+### Nainstalujte požadované balíčky: 
+* Flask
+* Requests
+* Tkinter (standardně součástí Pythonu, ale na některých systémech je potřeba jej doinstalovat)
+* Waitress (pro server)
 
-bash
-Zkopírovat kód
-pip install flask requests waitress
+  Instalujte je pomocí pip:
+`pip install flask requests waitress`
+
 Stáhněte si soubory projektu:
 
 client.py: Klientská aplikace (GUI pro práci s úkoly a kávou).
@@ -52,18 +48,15 @@ server.py: Flask server pro správu úkolů (API).
 ## Spuštění projektu:
 
 Nejprve spusťte server:
-bash
-Zkopírovat kód
+
 python server.py
 Poté spusťte klientskou aplikaci:
-bash
-Zkopírovat kód
+
 python client.py
 Aplikace otevře okno, kde se můžete přihlásit a začít zadávat úkoly a kávové záznamy.
 
 Struktura souborů
-bash
-Zkopírovat kód
+
 /project
     ├── server.py           # Flask server pro správu úkolů
     └── client.py           # Klientská aplikace s GUI pro úkoly a kávu
