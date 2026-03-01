@@ -58,8 +58,8 @@ Aplikace otevře okno, kde se můžete přihlásit a začít zadávat úkoly a k
 Struktura souborů
 
 /project
-    ├── server.py           # Flask server pro správu úkolů
-    └── client.py           # Klientská aplikace s GUI pro úkoly a kávu
+  * server.py           # Flask server pro správu úkolů
+  * client.py           # Klientská aplikace s GUI pro úkoly a kávu
 
 
 
