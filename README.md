@@ -1,8 +1,8 @@
-README - Úkoly a Kávové Záznamy
-Popis
+# Úkoly a Kávové Záznamy
+## Popis
 Tento projekt je jednoduchá aplikace, která vám umožní spravovat úkoly a kávové záznamy. Aplikace běží na Flask serveru, který poskytuje API pro práci s úkoly, a zároveň využívá Tkinter pro grafické uživatelské rozhraní (GUI). Umožňuje přidávat úkoly, přiřazovat je uživatelům, označovat je jako dokončené a sledovat kávové záznamy.
 
-Funkce
+## Funkce
 Přidávání úkolů: Můžete přidávat nové úkoly s popisem.
 Přidávání kávových záznamů: Uživatelé mohou zadávat informace o kávě, jako je typ, množství a síla.
 Přehled úkolů: Zobrazí seznam všech úkolů s možností přiřazení úkolu a označení jako dokončený.
@@ -10,7 +10,7 @@ Přehled káv: Zobrazuje všechny přidané kávové záznamy.
 Automatická synchronizace: Úkoly se pravidelně synchronizují se serverem.
 Přihlášení: Uživatel se musí přihlásit, aby mohl využívat funkce aplikace (pro jednoduchost je přihlašování hardcoded).
 
-Technologie
+## Technologie
 Flask: Webový framework pro serverovou část.
 Tkinter: Knihovna pro tvorbu grafického uživatelského rozhraní (GUI).
 Requests: Knihovna pro HTTP komunikaci mezi klientem a serverem.
@@ -19,10 +19,10 @@ Threading: Pro běh serveru a synchronizaci úkolů na pozadí.
 
 
 
-Instalace
+## Instalace
 Nainstalujte Python (verze 3.x):
 
-Stáhnout Python
+### Stáhnout Python
 Vytvořte virtuální prostředí (doporučeno):
 
 bash
@@ -49,7 +49,7 @@ server.py: Flask server pro správu úkolů (API).
 
 
 
-Spuštění projektu:
+## Spuštění projektu:
 
 Nejprve spusťte server:
 bash
@@ -71,7 +71,7 @@ Zkopírovat kód
 
 
     
-Použití
+## Použití
 1. Přihlášení
 Po spuštění klientské aplikace se zobrazí přihlašovací okno, kde musíte zadat uživatelské jméno a heslo. Uživatelé jsou přednastaveni na:
 
@@ -89,7 +89,7 @@ V záložce "Přehled úkolů" uvidíte všechny úkoly s možností přiřadit 
 5. Synchronizace
 Úkoly a kávové záznamy se automaticky synchronizují se serverem každých 5 sekund.
 
-Poznámky
+## Poznámky
 Tento projekt je určený pro ukázku základní interakce mezi klientem a serverem. Není určen pro použití ve velkých produkčních systémech.
 Kód pro přihlášení je pro zjednodušení hardcoded, ale můžete si přidat vlastní databázi uživatelů pro větší flexibilitu.
 Server používá knihovnu Waitress pro efektivní běh Flask aplikace.
